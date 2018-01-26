@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.foodgenix.Activity.ShareActivity">
+
+    <FrameLayout
+        android:layout_marginTop="0px"
+        android:layout_marginBottom="0px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:background="@drawable/back"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginStart="60dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center"
+                android:text="Food Share"
+                android:textColor="?android:attr/colorPressedHighlight"
+                android:textSize="20sp"
+                android:layout_marginEnd="4dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:text="Share"
+            android:gravity="center_vertical|center"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"/>
+    </FrameLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.5dip"
+        android:background="#D3D3D3" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0px"
+            android:layout_marginTop="0px"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2">
+                    <ImageView
+                        android:id="@+id/profileImage"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/logo"/>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="center_vertical|center">
+                    <EditText
+                        android:id="@+id/edCaption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Write a caption..."
+                        android:inputType="textMultiLine"
+                        android:background="@null"
+                        android:layout_gravity="center_vertical"/>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2">
+                    <ImageView
+                        android:id="@+id/uploadedImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/logo"/>
+                </FrameLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#D3D3D3" />
+            <TextView
+                android:id="@+id/tagPeople"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:text="Tag People"
+                android:gravity="center_vertical|start"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="#D3D3D3" />
+            <TextView
+                android:id="@+id/addLocation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:text="Add Location"
+                android:gravity="center_vertical|start"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="#D3D3D3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

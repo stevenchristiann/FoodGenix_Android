@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodGenix</string>
+    <string name="facebook_app_id">123497785037680</string>
+    <string name="fb_login_protocol_scheme">fb123497785037680</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+</resources>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <FrameLayout
+        android:layout_marginTop="0px"
+        android:layout_marginBottom="0px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOption"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/more_vec"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="4dp"/>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginStart="4dp">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_weight="0.1">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/foodpoint" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_weight="0.9">
+
+                <TextView
+                    android:id="@+id/foodpoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="1000"
+                    android:textAlignment="viewStart"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"/>
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fodgenix"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="FoodGenix"
+            android:textColor="@color/mainOrange"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedSV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0px"
+        android:layout_marginTop="0px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <ImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/logo"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="FoodGenix® Official Page of FoodGenix, Do you like food? Do you like air? SBY bred | SBY • CHS • ID based"
+                    android:textAlignment="center"
+                    android:textSize="17sp"/>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+                    <TextView
+                        android:id="@+id/follower"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="end"
+                        android:gravity="center"
+                        android:text="0\nFollower"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:id="@+id/following"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+                        android:gravity="center"
+                        android:text="0\nFollowing"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+            <TabHost
+                android:id="@+id/tabHost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="?android:attr/dividerVertical"
+                        android:showDividers="middle"
+                        android:soundEffectsEnabled="false" />
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <FrameLayout
+                            android:id="@+id/grid"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/rvItem"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scrollbars="vertical" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/list"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/rvItem1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scrollbars="vertical" />
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/loved"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/rvItem2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scrollbars="vertical" />
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </TabHost>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center|bottom"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/home"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnExplore"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/search"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop" />
+
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:background="@drawable/human"/>
+
+        <Button
+            android:id="@+id/btnNotification"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/like"
+            android:layout_marginRight="30dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnVoucher"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/voucher"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+</LinearLayout>

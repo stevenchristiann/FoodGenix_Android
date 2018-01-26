@@ -1,0 +1,185 @@
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/37cf4a45b6fda39b2ed6b2e98e93ef6a/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.3.0/5ef2a3700ab3320576eab21ff504189e5a92a350/glide-4.3.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/85a4734e90e8f6060b4a9406124565b5/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/Toasty-1.2.8.aar/29cdab532ef3d725dbee38fbc50a37c8/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/google-signin-1.0.0.aar/25fd3f8ecdbd084d603c9d301cfa6e85/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-11.8.0.aar/7d4e69cc3c38a5c114ba6ba19e686132/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.8.0.aar/db4b41aeb0d50caeec59bd3f29877eac/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.8.0.aar/0de7f45194b5d6ec15fe448ca4b6b5e5/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/26f1c0a0dd29dce8aabf1382c77829ab/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.30.0.aar/74db9e25ed9cc6cdd59dd719a25e6821/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-login-4.30.0.aar/117c904db4e40a3b8ad8611e2fec690c/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-share-4.30.0.aar/b5e15c61d202c0a39c4e9c5b38fc748e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/4bfaab9a1f647fc086fc150f2510380e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/7a2fd7ac2697b9596d12965ec55ae9b5/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/50894d19f6c265d20071306f8884fd44/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/0e873f35bf9ce052aab924ac38072d35/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/8c8fd42c95f50cface3fe978698ecd92/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.3.0/1017539654b72658c76825e7e4a7790017a79be0/gifdecoder-4.3.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.3.0/d799574d83b103a845cd42730699757d46307037/disklrucache-4.3.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.3.0/c40d97c718d72daee5c0510384fef3c82e3c193d/annotations-4.3.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/33b308f99a2fe999414a7e90b279d65f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-places-4.30.0.aar/b8034993f234065e965e4e03c7f3090d/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.30.0.aar/cd40fecef47e4e615715001062bdd70f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.30.0.aar/de3800056000c4821cce0e53d49448e0/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/5a943f67a522fe10bd59ab73d4655416/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/0c3a24fa08f67da2b433c11390c18021/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.8.0.aar/87104b0f31c08621f5fe0ac045c7e5d1/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.8.0.aar/a26dfb13d226adb2966f54448e3409ba/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.8.0.aar/079261abad13322b4ef6e40c166b6085/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.8.0.aar/3353bae1edb5e03e54bbe18e2ade79cd/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.8.0.aar/d112f7a868d9b9e3768dfdf57953d11e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.8.0.aar/c77299f020eb3cfe273872353600788d/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.8.0.aar/b0d8be5bf66d195e366e8b1110439386/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.8.0.aar/9277d7fb0cbe3189ad1991c971c7f899/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.8.0.aar/9ade6d828c2c0f8e446c8a9cfca5fd0a/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.8.0.aar/ee86b89c9452b53f5266e54400ec9151/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-config-11.8.0.aar/79f4f9092553c0fbd6f481b22da0ebdb/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.8.0.aar/8f3d297a23af453353a832416c42f33e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-games-11.8.0.aar/6776272aea0ea04dd4617015c90dd8e5/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.8.0.aar/d26a45322814a1febd6189fc8262ac67/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.8.0.aar/f8290102c17ff759f49755374d7bb76b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/c3cf77a5ab51182a54c7c93233c7878b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.8.0.aar/1455d7e16f4b1893c3c0ef9aa21febde/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.8.0.aar/5bb725157430143912454d9b6abb6c17/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.8.0.aar/7784248458399c5a5593a3d249b13b0a/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.8.0.aar/01d5f27b1ac5f8417d90ff4b632cc0b9/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.8.0.aar/0b51fc4b3f4814b2020223001ce1baf0/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.8.0.aar/232e1709a9c34c9013d3fd923a16bda3/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.8.0.aar/7b3225d1e9e1e8dfa8e0bb779455c8df/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.8.0.aar/fd99b820c078b099a5956212ab4d2e00/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/0ca2b8051e8d54581ae765797751b063/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/631f5394c111387ff4b9180379a29686/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/379c2c236011a38c0a685553423c4e4f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.8.0.aar/774985df4127800ed1debaf455bc3abf/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.8.0.aar/4f4120a398dd07652a8d8416eeb16e6b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.8.0.aar/05e275213d1b69fad4af32a6c9892d43/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.8.0.aar/5c1bff685f8b1d756b25a0207572d3e9/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.8.0.aar/f25de94c59e240a1f3bc4833541445ba/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.8.0.aar/982bf00529571b5859cea0ba587c3f08/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.8.0.aar/fe90e832544e037bcd54be3f74ebefe7/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/572e10a656176d65f78cc4b4e257d595/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.8.0.aar/6d61fe0919a0bd279753eae204407ec3/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-database-11.8.0.aar/132dc67d8281a3ced75cf2d4a62c7186/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/6c5277ac133c1f3ea532f5fb1a0bd1b4/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.8.0.aar/449eac19ad9f4381b1e48152717c91eb/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.8.0.aar/e0ab9c50e1f91f67fa5d02501ab242fa/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/6295168f76c58469b818278e095d777e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/9b11d6c8ff649dad5ff2a2d938143b35/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.8.0.aar/272d70d26991a988510ec547d87c9084/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.8.0.aar/d8251441baa97c094b6af6f0a406c409/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.8.0.aar/355ca0dfa4321cb02723e3e78bda1ea1/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-common-11.8.0.aar/d76cdfc394ab6d7dba88fbf69e8bb225/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.8.0.aar/5050dfeb4eb4d7d1c15f8bb92d3b267d/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/525053581911b5778e3a0220c568b90b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/65db85128874b3877ba4e3861d560070/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/cefb3ee12d32bc5bfc0de3954cb4dec4/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/a2018802f4e550f92187c8045e6aba23/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/30af283db7e8e1a4921a59c418a0b2c5/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/9dc5f055a1f9473d4bedc5517ad45a57/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/6d73cfc1e0851295d06fd3a760c4faec/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f256c142625e98b2403005aeec17694d/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/251b67a68c090fc99e8fb0b3cf1e0bbc/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/f7cadf3658f8faef2c1c17aedcd250c5/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/79d51e24469c1836ea8412357700476f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar(**.class)
+-injars /Users/steven/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.8.0.aar/22f94cf76368c631612d17cad7820034/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.8.0.aar/1998914b2b83e8dbd7b24922d33ef49d/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-11.8.0.aar/493f909d159c5973f1224e7c62fdda1b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-11.8.0.aar/0361e8ec91ed2af61e3a73129032496f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-license-11.8.0.aar/0ce13b2b7a1637b441266adc29c21ee1/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.8.0.aar/d44aaacd9ac15530161751fe0eff240c/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.8.0.aar/8d76ade34a2380639ddd2502ed42ca41/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/f33b0486de6dfbe8e6cf2363ae3a915f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.8.0.aar/554b6aa9790eee6378e9a9eced8539f7/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.8.0.aar/d2b203cafb7f7d7a43a89567497c274c/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/d1dcbd5f3f031fcbf03c498db8d25819/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-config-license-11.8.0.aar/a4d9c63d4f097673361aadd0de2a9f76/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-awareness-license-11.8.0.aar/9e7b27ce80a63141d60dee9e186c5ee9/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-11.8.0.aar/750cb2695e08e6639914f83962b2a79d/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-drive-license-11.8.0.aar/745cb88cc111196228e5050e2ebebadf/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-fido-license-11.8.0.aar/1b916316a7f25d3e4bf3b0ccfb6a0b51/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.8.0.aar/10c2c8b6f72b2955eeaf61a5c4fdb471/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.8.0.aar/2076c60bca94b54e98133fae25c8e097/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/f5887a81c31abfb823fc0bba25499b8e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-license-11.8.0.aar/c7c2889b720924efdf90263fa68ab626/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/00360f4cd967d0d6e17ceede567747c8/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.8.0.aar/784570891b1991de02f620c485f73186/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.8.0.aar/b46fc4c0299918fa4f244412453c1f93/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.8.0.aar/9cdb6a4c9b69d7dd4dbb4323c98ebdc0/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.8.0.aar/5e6999daa578ea5e5190a51e5ea73697/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-fitness-license-11.8.0.aar/a2a6db961a9661b538a18dcbf47c9627/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-games-license-11.8.0.aar/8e2f364cd8deeab609442b39300997f3/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.8.0.aar/6c992498655101303be7fefb86267ea8/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.8.0.aar/6323971ab14aa6dd63718deecc6872d6/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.8.0.aar/2f03b155a74d781d24f224609af49a0f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.8.0.aar/24d02e9d1fbfca088f038206d18b9f0b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.8.0.aar/f9b85f42e1833ac27f398cbccd15fa65/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-license-11.8.0.aar/700af79d37e206bdcc5ab89f34bd59dc/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.8.0.aar/bbed92bb059b0a4ce5e6586144333948/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/89372783de1ea9afd07938ec157210db/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/2e9b467393a921c5f9cd525e88349b7d/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/f1e429d029673de7e54afeba172e8e3f/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-nearby-license-11.8.0.aar/e0b958028c78e9b7bbdff3bc636cc8d8/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-panorama-license-11.8.0.aar/d2a7ab466400bb5f23714911e8b8405e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.8.0.aar/655ccd8b2764ebce04b59f4453715816/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-plus-license-11.8.0.aar/3f0b42c462f2ff625426d9ae5646f16b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-license-11.8.0.aar/410df1fb795f9a7c3170c477d2081316/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-license-11.8.0.aar/dafe77172ed959b7a982cdb7a91eae5a/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-license-11.8.0.aar/fa7d782569670a04381039f9dd25549b/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-11.8.0.aar/bed4277496f87bd4b8e602914a314abe/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/9c2b96fb41ef361ad2581deb653ced82/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-11.8.0.aar/a45b02220d3baf97f9eb963f547abf51/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-11.8.0.aar/c39567614c8278adeeec416c7a5f399e/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-wallet-license-11.8.0.aar/f0ed560ad04dd2d86617a24fd4ab86ea/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.8.0.aar/13e19e31ffbe52c3e8e5121c45cc6f78/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.4.0/cc174c559b5177982887bf6e1b76003aebad9516/bolts-android-1.4.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar(**.class)
+-injars /Users/steven/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/02ea8f5c0615141f1a92259d5e7aed88/jars/classes.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar(**.class)
+-injars /Users/steven/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar(**.class)
+-injars /Users/steven/Documents/FoodGenix/FoodGenix_Android/app/build/intermediates/classes/debug(**.class)
+-outjars /Users/steven/Documents/FoodGenix/FoodGenix_Android/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/steven/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/steven/Documents/FoodGenix/FoodGenix_Android/app/build/intermediates/multi-dex/debug/components.flags
+
+
+# Referenced at /Users/steven/Documents/FoodGenix/FoodGenix_Android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:40
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

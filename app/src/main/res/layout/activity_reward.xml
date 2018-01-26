@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RewardActivity">
+
+    <FrameLayout
+        android:layout_marginTop="0px"
+        android:layout_marginBottom="0px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Food"
+            android:textColor="#faa31d"
+            android:textSize="24sp"
+            android:layout_marginEnd="4dp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/foodpoint"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Point"
+            android:textColor="#faa31d"
+            android:textSize="24sp"
+            android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0px"
+        android:layout_marginTop="0px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|end"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/point_border"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="My FoodPoints"
+                        android:textAlignment="center"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/foodpoint"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TabHost
+                    android:id="@+id/tabHost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TabWidget
+                            android:id="@android:id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="?android:attr/dividerVertical"
+                            android:showDividers="middle" />
+
+                        <FrameLayout
+                            android:id="@android:id/tabcontent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <FrameLayout
+                                android:id="@+id/buyvoucher"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/rvItem"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scrollbars="vertical" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/myvoucher"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/rvItem1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scrollbars="vertical" />
+                            </FrameLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+                </TabHost>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center|bottom"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/home"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnExplore"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/search"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop" />
+
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:background="@drawable/human"/>
+
+        <Button
+            android:id="@+id/btnNotification"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/like"
+            android:layout_marginRight="30dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnVoucher"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/voucher"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+</LinearLayout>
