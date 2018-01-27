@@ -30,9 +30,9 @@ USE `db_foodgenix`;
 
 DROP TABLE IF EXISTS `block`;
 CREATE TABLE `block` (
-  `ID` varchar(255) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
-  `USER_BLOCKED_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
+  `USER_BLOCKED_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -54,9 +54,9 @@ CREATE TABLE `block` (
 
 DROP TABLE IF EXISTS `comment`;
 CREATE TABLE `comment` (
-  `ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
-  `POST_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
+  `POST_ID` varchar(13) NOT NULL,
   `COMMENT_TEXT` varchar(255) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -79,9 +79,9 @@ CREATE TABLE `comment` (
 
 DROP TABLE IF EXISTS `comment_hashtag`;
 CREATE TABLE `comment_hashtag` (
-  `ID` varchar(10) NOT NULL,
-  `COMMENT_ID` varchar(10) NOT NULL,
-  `HASHTAG_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `COMMENT_ID` varchar(13) NOT NULL,
+  `HASHTAG_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -103,7 +103,7 @@ CREATE TABLE `comment_hashtag` (
 
 DROP TABLE IF EXISTS `company`;
 CREATE TABLE `company` (
-  `ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
   `NAME` varchar(100) NOT NULL,
   `ADDRESS` varchar(255) NOT NULL,
   `CITY` varchar(100) NOT NULL,
@@ -128,9 +128,9 @@ CREATE TABLE `company` (
 
 DROP TABLE IF EXISTS `exchange_voucher`;
 CREATE TABLE `exchange_voucher` (
-  `ID` varchar(10) NOT NULL,
-  `VOUCHER_ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `VOUCHER_ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `COUNT` int(10) NOT NULL DEFAULT '1',
   `REAL_PRICE` int(10) NOT NULL,
   `FOODGENIX_PRICE` int(10) NOT NULL,
@@ -157,9 +157,9 @@ CREATE TABLE `exchange_voucher` (
 
 DROP TABLE IF EXISTS `exchange_voucher_code`;
 CREATE TABLE `exchange_voucher_code` (
-  `ID` varchar(255) NOT NULL,
-  `EXCHANGE_VOUCHER_ID` varchar(10) NOT NULL,
-  `VOUCHER_CODE_ID` varchar(255) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `EXCHANGE_VOUCHER_ID` varchar(13) NOT NULL,
+  `VOUCHER_CODE_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -181,9 +181,9 @@ CREATE TABLE `exchange_voucher_code` (
 
 DROP TABLE IF EXISTS `favorite`;
 CREATE TABLE `favorite` (
-  `ID` varchar(10) NOT NULL,
-  `POST_ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `POST_ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -205,9 +205,9 @@ CREATE TABLE `favorite` (
 
 DROP TABLE IF EXISTS `follow`;
 CREATE TABLE `follow` (
-  `ID` varchar(255) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
-  `USER_FOLLOWED_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
+  `USER_FOLLOWED_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -229,7 +229,7 @@ CREATE TABLE `follow` (
 
 DROP TABLE IF EXISTS `hashtag`;
 CREATE TABLE `hashtag` (
-  `ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
   `TEXT` varchar(255) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -248,7 +248,7 @@ CREATE TABLE `hashtag` (
 
 DROP TABLE IF EXISTS `location`;
 CREATE TABLE `location` (
-  `ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
   `NAME` varchar(255) NOT NULL,
   `LATITUDE` double NOT NULL,
   `LONGITUDE` double NOT NULL,
@@ -270,8 +270,8 @@ CREATE TABLE `location` (
 
 DROP TABLE IF EXISTS `log`;
 CREATE TABLE `log` (
-  `ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `TEXT` varchar(255) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -292,8 +292,8 @@ CREATE TABLE `log` (
 
 DROP TABLE IF EXISTS `mention`;
 CREATE TABLE `mention` (
-  `ID` varchar(10) NOT NULL,
-  `COMMENT_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `COMMENT_ID` varchar(13) NOT NULL,
   `USER_ID` varchar(10) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -316,9 +316,9 @@ CREATE TABLE `mention` (
 
 DROP TABLE IF EXISTS `photo_tag`;
 CREATE TABLE `photo_tag` (
-  `ID` varchar(10) NOT NULL,
-  `POST_ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `POST_ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `X_COORDINATE` int(5) NOT NULL,
   `Y_COORDINATE` int(5) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -342,9 +342,9 @@ CREATE TABLE `photo_tag` (
 
 DROP TABLE IF EXISTS `point_add`;
 CREATE TABLE `point_add` (
-  `ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
-  `USER_LIKE_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
+  `USER_LIKE_ID` varchar(13) NOT NULL,
   `COUNT` int(7) NOT NULL DEFAULT '0',
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -367,14 +367,14 @@ CREATE TABLE `point_add` (
 
 DROP TABLE IF EXISTS `post`;
 CREATE TABLE `post` (
-  `ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `POST_URL` varchar(255) NOT NULL,
   `PHOTO_URL` varchar(255) NOT NULL,
-  `CAPTION_ID` varchar(10) DEFAULT NULL,
-  `LOCATION_ID` varchar(10) DEFAULT NULL,
-  `LAST_COMMENT_ID` varchar(10) DEFAULT NULL,
-  `SECOND_LAST_COMMENT_ID` varchar(10) DEFAULT NULL,
+  `CAPTION_ID` varchar(13) DEFAULT NULL,
+  `LOCATION_ID` varchar(13) DEFAULT NULL,
+  `LAST_COMMENT_ID` varchar(13) DEFAULT NULL,
+  `SECOND_LAST_COMMENT_ID` varchar(13) DEFAULT NULL,
   `LIKE_COUNT` int(15) NOT NULL DEFAULT '0',
   `COMMENT_COUNT` int(15) NOT NULL DEFAULT '0',
   `IS_PROMOTION` tinyint(1) NOT NULL DEFAULT '0' COMMENT '0 not, 1 yes',
@@ -406,9 +406,9 @@ CREATE TABLE `post` (
 
 DROP TABLE IF EXISTS `post_view`;
 CREATE TABLE `post_view` (
-  `ID` varchar(255) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
-  `POST_VIEWED_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
+  `POST_VIEWED_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -430,9 +430,9 @@ CREATE TABLE `post_view` (
 
 DROP TABLE IF EXISTS `report`;
 CREATE TABLE `report` (
-  `ID` varchar(255) NOT NULL,
-  `POST_ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `POST_ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `REASON` varchar(255) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -455,8 +455,8 @@ CREATE TABLE `report` (
 
 DROP TABLE IF EXISTS `search`;
 CREATE TABLE `search` (
-  `ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `KEYWORD` varchar(255) NOT NULL,
   `TYPE` int(1) NOT NULL DEFAULT '0' COMMENT '0 user, 1 hashtag, 2 place',
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -478,7 +478,7 @@ CREATE TABLE `search` (
 
 DROP TABLE IF EXISTS `setting`;
 CREATE TABLE `setting` (
-  `ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
   `LANGUAGE` varchar(10) NOT NULL DEFAULT 'ID',
   `PRIVATE_ACCOUNT` tinyint(1) NOT NULL DEFAULT '0' COMMENT '0 not, 1 yes',
   `LIKE_NOTIFICATION` tinyint(1) NOT NULL DEFAULT '1' COMMENT '0 not, 1 yes',
@@ -505,7 +505,7 @@ CREATE TABLE `setting` (
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
-  `ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
   `USERNAME` varchar(50) NOT NULL,
   `PASSWORD` varchar(255) NOT NULL,
   `NAME` varchar(255) NOT NULL,
@@ -522,7 +522,7 @@ CREATE TABLE `user` (
   `BIO` varchar(255) NOT NULL,
   `FOODGENIX_POINTS` int(15) NOT NULL DEFAULT '0',
   `IS_RESTAURANT` tinyint(1) NOT NULL DEFAULT '0' COMMENT '0 not, 1 yes',
-  `SETTING_ID` varchar(10) NOT NULL,
+  `SETTING_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -542,9 +542,9 @@ CREATE TABLE `user` (
 
 DROP TABLE IF EXISTS `user_like`;
 CREATE TABLE `user_like` (
-  `ID` varchar(10) NOT NULL,
-  `POST_ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `POST_ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -566,9 +566,9 @@ CREATE TABLE `user_like` (
 
 DROP TABLE IF EXISTS `user_view`;
 CREATE TABLE `user_view` (
-  `ID` varchar(255) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
-  `USER_VIEWED_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
+  `USER_VIEWED_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -590,9 +590,9 @@ CREATE TABLE `user_view` (
 
 DROP TABLE IF EXISTS `user_voucher`;
 CREATE TABLE `user_voucher` (
-  `ID` varchar(10) NOT NULL,
-  `USER_ID` varchar(10) NOT NULL,
-  `VOUCHER_CODE_ID` varchar(255) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `USER_ID` varchar(13) NOT NULL,
+  `VOUCHER_CODE_ID` varchar(13) NOT NULL,
   `CREATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `UPDATED_AT` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DELETED_AT` timestamp NULL DEFAULT NULL
@@ -614,8 +614,8 @@ CREATE TABLE `user_voucher` (
 
 DROP TABLE IF EXISTS `voucher`;
 CREATE TABLE `voucher` (
-  `ID` varchar(10) NOT NULL,
-  `COMPANY_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `COMPANY_ID` varchar(13) NOT NULL,
   `NAME` varchar(255) NOT NULL,
   `DESCRIPTION` varchar(255) NOT NULL,
   `REAL_PRICE` int(10) NOT NULL,
@@ -643,8 +643,8 @@ CREATE TABLE `voucher` (
 
 DROP TABLE IF EXISTS `voucher_code`;
 CREATE TABLE `voucher_code` (
-  `ID` varchar(255) NOT NULL,
-  `VOUCHER_ID` varchar(10) NOT NULL,
+  `ID` varchar(13) NOT NULL,
+  `VOUCHER_ID` varchar(13) NOT NULL,
   `CODE` varchar(255) NOT NULL,
   `REDEEM_DATETIME` timestamp NULL DEFAULT NULL,
   `EXP_DATE` date DEFAULT NULL,
