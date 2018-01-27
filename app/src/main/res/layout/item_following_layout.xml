@@ -51,7 +51,7 @@
                     android:gravity="left|center"
                     android:text="Endang Setiati"
                     android:textColor="@color/wallet_bright_foreground_holo_light"
-                    android:textSize="13sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -65,7 +65,7 @@
                     android:gravity="left|center"
                     android:text="Endang Setiati"
                     android:textColor="@color/com_facebook_button_background_color_focused_disabled"
-                    android:textSize="12sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -76,6 +76,8 @@
                 android:layout_gravity="center"
                 android:background="@null"
                 android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
                 android:paddingLeft="0dp"
                 android:scaleType="fitCenter"
                 android:text="FOLLOWING" />

@@ -30,21 +30,19 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import es.dmoral.toasty.Toasty;
+
 public class ProfileActivity extends AppCompatActivity {
-    private RecyclerView mRecyclerView1;
-    private RecyclerView mRecyclerView2;
-    private RecyclerView mRecyclerView3;
+    private RecyclerView mRecyclerView1, mRecyclerView2, mRecyclerView3;
     private MyPostGridAdapter mAdapter;
     private LikedPostAdapter lAdapter;
     private MyPostLinearAdapter pAdapter;
     private StaggeredGridLayoutManager mLayoutManager;
     private LinearLayoutManager mLayoutManager2;
     private StaggeredGridLayoutManager mLayoutManager1;
-    private List<String> imageList1;
-    private List<String> imageList3;
+    private List<String> imageList1, imageList3;
     private List<Post> postList;
-    private TextView tvFollower;
-    private TextView tvFollowing;
+    private TextView tvFollower, tvFollowing;
     private NestedScrollView nestedSV;
     protected Handler handler;
     @Override
@@ -61,13 +59,13 @@ public class ProfileActivity extends AppCompatActivity {
         tvFollower.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ProfileActivity.this, "Follower list coming soon...", Toast.LENGTH_SHORT).show();
+                Toasty.error(ProfileActivity.this, "Follower list coming soon...", Toast.LENGTH_LONG, true).show();
             }
         });
         tvFollowing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ProfileActivity.this, "Following list coming soon...", Toast.LENGTH_SHORT).show();
+                Toasty.error(ProfileActivity.this, "Following list coming soon...", Toast.LENGTH_LONG, true).show();
             }
         });
         TabHost host = (TabHost)findViewById(R.id.tabHost);
@@ -179,7 +177,7 @@ public class ProfileActivity extends AppCompatActivity {
         btnOption.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ProfileActivity.this, "User Option coming soon...", Toast.LENGTH_SHORT).show();
+                Toasty.error(ProfileActivity.this, "User option coming soon...", Toast.LENGTH_LONG, true).show();
             }
         });
         // use this setting to improve performance if you know that changes

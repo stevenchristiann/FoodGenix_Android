@@ -19,7 +19,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private EditText edusername,edpassword;
+    private EditText edUsernameLogin,edPasswordLogin;
     private Button login,toRegister;
     private TextView btnLoginGoogle;
     private LoginButton btnLoginFb;
@@ -29,8 +29,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        edusername = (EditText) findViewById(R.id.edUsername);
-        edpassword = (EditText) findViewById(R.id.edPassword);
+        edUsernameLogin = (EditText) findViewById(R.id.edUsernameLogin);
+        edPasswordLogin = (EditText) findViewById(R.id.edPasswordLogin);
         login = (Button) findViewById(R.id.btnLogin);
         toRegister = (Button) findViewById(R.id.btnGoToSignUp);
         btnLoginGoogle = (TextView) findViewById(R.id.btnLoginGoogle);

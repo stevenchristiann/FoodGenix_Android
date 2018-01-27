@@ -152,8 +152,6 @@
                 app:ccpDialog_fastScroller_bubbleTextAppearance="@color/mainOrange"
                 />
 
-
-
         </LinearLayout>
 
         <LinearLayout
@@ -168,6 +166,7 @@
             android:weightSum="1">
 
             <TextView
+                android:id="@+id/birthdate"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginLeft="4dp"

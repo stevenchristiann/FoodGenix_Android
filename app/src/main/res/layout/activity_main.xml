@@ -70,6 +70,7 @@
         android:layout_height="45dp"
         android:gravity="center|bottom"
         android:layout_alignParentBottom="true"
+        android:background="#efefef"
         android:orientation="horizontal">
 
         <Button

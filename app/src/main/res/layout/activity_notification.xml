@@ -80,6 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:gravity="center|bottom"
+        android:background="#efefef"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
 

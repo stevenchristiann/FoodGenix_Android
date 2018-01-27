@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 28 03:54:35 WIB 2018
+#Sun Jan 28 04:58:54 WIB 2018
 20.base=/Users/steven/Documents/__Sourcetree/FoodGenix/app/build/intermediates/assets/debug
 143.base=/Users/steven/Documents/__Sourcetree/FoodGenix/app/build/intermediates/assets/debug
 237.path=io/michaelrocks/libphonenumber/android/data/ShortNumberMetadataProto_MO

@@ -10,6 +10,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,7 +23,10 @@ import es.dmoral.toasty.Toasty;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    private Button btnGoToSignIn;
+    private EditText edFirstName, edLastName, edUsername, edEmail, edPassword, edConfirmPassword;
+    private RadioGroup rgGender;
+    private RadioButton rbMale, rbFemale;
+    private Button btnGoToSignIn, btnSignUp;
     private TextView birthdate;
     private DatePickerDialog.OnDateSetListener dataSetListener;
     private CountryCodePicker ccp;
@@ -33,6 +38,19 @@ public class RegisterActivity extends AppCompatActivity {
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        edFirstName = (EditText) findViewById(R.id.edFirstName);
+        edLastName = (EditText) findViewById(R.id.edLastName);
+        edUsername = (EditText) findViewById(R.id.edUsername);
+        edEmail = (EditText) findViewById(R.id.edEmail);
+        edPassword = (EditText) findViewById(R.id.edPassword);
+        edConfirmPassword = (EditText) findViewById(R.id.edConfirmPassword);
+
+        rgGender = (RadioGroup) findViewById(R.id.rgGender);
+        rbMale = (RadioButton) findViewById(R.id.rbMale);
+        rbFemale = (RadioButton) findViewById(R.id.rbFemale);
+
+
 
         ccp = (CountryCodePicker) findViewById(R.id.ccp);
         birthdate = (TextView) findViewById(R.id.birthdate);
@@ -72,6 +90,13 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+            }
+        });
+
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
     }
