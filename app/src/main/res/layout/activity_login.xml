@@ -18,7 +18,7 @@
             android:layout_height="160dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:adjustViewBounds="false"
             android:baselineAlignBottom="false"
             android:scaleType="centerInside"
@@ -42,7 +42,7 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginTop="8dp"
-                android:ems="10"
+                android:textSize="24sp"
                 android:hint="Username"
                 android:drawableStart="@drawable/person"
                 android:inputType="textPersonName"
@@ -55,7 +55,7 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginTop="8dp"
-                android:ems="10"
+                android:textSize="24sp"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:drawableStart="@drawable/lock"
@@ -74,7 +74,7 @@
                 android:text="Sign In"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textColor="@android:color/background_light"
-                android:textSize="16sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 
@@ -83,7 +83,7 @@
             android:layout_height="35dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="8dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -91,7 +91,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
+                android:textSize="14sp"
                 android:textAlignment="center"
                 android:gravity="center"
                 android:text="Forgotten your login details?  "/>
@@ -105,7 +105,7 @@
                 android:textAlignment="textStart"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textColor="@android:color/holo_blue_light"
-                android:textSize="13sp" />
+                android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -155,10 +155,12 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.google.android.gms.common.SignInButton
-                android:id="@+id/loginGoogle"
+            <com.shobhitpuri.custombuttons.GoogleSignInButton
+                android:id="@+id/btnLoginGoogle"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:text="Sign In with Google"/>
 
         </LinearLayout>
 
@@ -172,12 +174,13 @@
             android:orientation="vertical">
 
             <com.facebook.login.widget.LoginButton
-                android:id="@+id/loginFb"
+                android:id="@+id/btnLoginFb"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingBottom="11dp"
                 android:paddingLeft="11dp"
                 android:paddingTop="11dp"
+                android:textSize="16sp"
                 xmlns:facebook="http://schemas.android.com/apk/res-auto"
                 facebook:com_facebook_login_text="Sign in with Facebook"/>
 
@@ -221,7 +224,7 @@
                 android:gravity="center"
                 android:text="Don't have an account ?  "
                 android:textAlignment="textEnd"
-                android:textSize="16sp" />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnGoToSignUp"
@@ -233,7 +236,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Sign Up."
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textColor="@android:color/holo_blue_light"
                 android:textAlignment="textStart" />

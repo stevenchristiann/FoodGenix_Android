@@ -6,28 +6,35 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
+
 import com.android.foodgenix.Activity.R;
+import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
+import com.facebook.login.widget.LoginButton;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.SignInButton;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private EditText username,password;
+    private EditText edusername,edpassword;
     private Button login,toRegister;
+    private TextView btnLoginGoogle;
+    private LoginButton btnLoginFb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
 
-        SignInButton signInButton = (SignInButton) findViewById(R.id.loginGoogle);
-        signInButton.setSize(SignInButton.SIZE_WIDE);
-
-        username = (EditText) findViewById(R.id.edUsername);
-        password = (EditText) findViewById(R.id.edPassword);
+        edusername = (EditText) findViewById(R.id.edUsername);
+        edpassword = (EditText) findViewById(R.id.edPassword);
         login = (Button) findViewById(R.id.btnLogin);
         toRegister = (Button) findViewById(R.id.btnGoToSignUp);
+        btnLoginGoogle = (TextView) findViewById(R.id.btnLoginGoogle);
+        btnLoginGoogle.setTextSize(16);
 
         toRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +52,8 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(mainIntent);
             }
         });
+
+
     }
 
 }

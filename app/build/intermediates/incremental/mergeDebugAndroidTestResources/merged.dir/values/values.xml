@@ -12,6 +12,7 @@
     <attr format="reference" name="castExpandedControllerToolbarStyle"/>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
+    <attr format="reference" name="fastscroll__style"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
     <attr format="integer" name="layout_constraintBaseline_creator"/>
@@ -180,6 +181,8 @@
     <color name="common_google_signin_btn_text_light_focused">#90000000</color>
     <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="dark_blue">#4285F4</color>
+    <color name="defaultBorderFlagColor">@android:color/transparent</color>
+    <color name="defaultContentColor">@android:color/black</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -221,6 +224,7 @@
     <color name="place_autocomplete_search_hint">#BDBDBD</color>
     <color name="place_autocomplete_search_text">#212121</color>
     <color name="place_autocomplete_separator">#1F000000</color>
+    <color name="pressed_bg">#64b7b7b7</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -239,6 +243,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="test">#221224</color>
     <color name="text_color_dark">#80000000</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
@@ -476,6 +481,49 @@
             <flag name="all" value="0x77"/>
         </attr></declare-styleable>
     <declare-styleable name="Corpus"><attr format="string" name="corpusId"/><attr format="string" name="corpusVersion"/><attr format="string" name="contentProviderUri"/><attr format="boolean" name="trimmable"/><attr format="string" name="schemaOrgType"/><attr format="boolean" name="semanticallySearchable"/><attr format="integer" name="documentMaxAgeSecs"/><attr format="boolean" name="perAccountTemplate"/></declare-styleable>
+    <declare-styleable name="CountryCodePicker"><attr format="integer" name="ccp_defaultPhoneCode"/><attr format="color" name="ccp_contentColor"/><attr format="dimension" name="ccp_textSize"/><attr format="dimension" name="ccp_arrowSize"/><attr format="boolean" name="ccp_showArrow"/><attr format="string" name="ccp_customMasterCountries"/><attr format="color" name="ccp_flagBorderColor"/><attr format="string" name="ccp_countryPreference"/><attr format="string" name="ccp_defaultNameCode"/><attr format="boolean" name="ccp_rememberLastSelection"/><attr format="enum" name="ccp_textGravity">
+            <enum name="LEFT" value="-1"/>
+            <enum name="RIGHT" value="1"/>
+            <enum name="CENTER" value="0"/>
+        </attr><attr format="boolean" name="ccp_showNameCode"/><attr format="boolean" name="ccp_showFlag"/><attr format="boolean" name="ccp_showFullName"/><attr format="boolean" name="ccp_clickable"/><attr format="boolean" name="ccp_showPhoneCode"/><attr format="boolean" name="ccp_autoDetectLanguage"/><attr format="boolean" name="ccp_autoDetectCountry"/><attr format="boolean" name="ccp_areaCodeDetectedCountry"/><attr format="boolean" name="ccp_autoFormatNumber"/><attr format="string" name="ccp_selectionMemoryTag"/><attr format="boolean" name="ccpDialog_keyboardAutoPopup"/><attr format="boolean" name="ccpDialog_allowSearch"/><attr format="boolean" name="ccpDialog_showPhoneCode"/><attr format="boolean" name="ccpDialog_showFastScroller"/><attr format="color" name="ccpDialog_fastScroller_bubbleColor"/><attr format="color" name="ccpDialog_fastScroller_handleColor"/><attr format="reference" name="ccpDialog_fastScroller_bubbleTextAppearance"/><attr format="color" name="ccpDialog_backgroundColor"/><attr format="color" name="ccpDialog_textColor"/><attr format="color" name="ccpDialog_searchEditTextTint"/><attr format="boolean" name="ccpDialog_showCloseIcon"/><attr format="enum" name="ccp_defaultLanguage">
+            <enum name="ARABIC" value="0"/>
+            <enum name="BENGALI" value="1"/>
+            <enum name="CHINESE_SIMPLIFIED" value="2"/>
+            <enum name="CHINESE_TRADITIONAL" value="3"/>
+            <enum name="DUTCH" value="4"/>
+            <enum name="ENGLISH" value="5"/>
+            <enum name="FRENCH" value="6"/>
+            <enum name="GERMAN" value="7"/>
+            <enum name="GUJARATI" value="8"/>
+            <enum name="HEBREW" value="9"/>
+            <enum name="HINDI" value="10"/>
+            <enum name="INDONESIA" value="11"/>
+            <enum name="ITALIAN" value="12"/>
+            <enum name="JAPANESE" value="13"/>
+            <enum name="KOREAN" value="14"/>
+            <enum name="PORTUGUESE" value="15"/>
+            <enum name="PUNJABI" value="16"/>
+            <enum name="RUSSIAN" value="17"/>
+            <enum name="SPANISH" value="18"/>
+            <enum name="TURKISH" value="19"/>
+            <enum name="UKRAINIAN" value="20"/>
+        </attr><attr format="enum" name="ccp_countryAutoDetectionPref">
+            <enum name="SIM_ONLY" value="1"/>
+            <enum name="NETWORK_ONLY" value="2"/>
+            <enum name="LOCALE_ONLY" value="3"/>
+            <enum name="SIM_NETWORK" value="12"/>
+            <enum name="NETWORK_SIM" value="21"/>
+            <enum name="SIM_LOCALE" value="13"/>
+            <enum name="LOCALE_SIM" value="31"/>
+            <enum name="NETWORK_LOCALE" value="23"/>
+            <enum name="LOCALE_NETWORK" value="32"/>
+            <enum name="SIM_NETWORK_LOCALE" value="123"/>
+            <enum name="SIM_LOCALE_NETWORK" value="132"/>
+            <enum name="NETWORK_SIM_LOCALE" value="213"/>
+            <enum name="NETWORK_LOCALE_SIM" value="231"/>
+            <enum name="LOCALE_SIM_NETWORK" value="312"/>
+            <enum name="LOCALE_NETWORK_SIM" value="321"/>
+        </attr></declare-styleable>
     <declare-styleable name="CustomCastTheme"><attr format="reference" name="castIntroOverlayStyle"/><attr format="reference" name="castMiniControllerStyle"/><attr format="reference" name="castExpandedControllerStyle"/></declare-styleable>
     <declare-styleable name="CustomWalletTheme"><attr name="windowTransitionStyle">
 <enum name="slide" value="1"/>
@@ -618,10 +666,11 @@
         </attr></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/><attr format="reference" name="subMenuArrow"/></declare-styleable>
     <declare-styleable name="NavigationView"><attr name="android:background"/><attr name="android:fitsSystemWindows"/><attr name="android:maxWidth"/><attr name="elevation"/><attr format="reference" name="menu"/><attr format="color" name="itemIconTint"/><attr format="color" name="itemTextColor"/><attr format="reference" name="itemBackground"/><attr format="reference" name="itemTextAppearance"/><attr format="reference" name="headerLayout"/></declare-styleable>
+    <declare-styleable name="PercentLayout_Layout"><attr format="fraction" name="layout_widthPercent"/><attr format="fraction" name="layout_heightPercent"/><attr format="fraction" name="layout_marginPercent"/><attr format="fraction" name="layout_marginLeftPercent"/><attr format="fraction" name="layout_marginTopPercent"/><attr format="fraction" name="layout_marginRightPercent"/><attr format="fraction" name="layout_marginBottomPercent"/><attr format="fraction" name="layout_marginStartPercent"/><attr format="fraction" name="layout_marginEndPercent"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/><attr name="android:popupAnimationStyle"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="RecycleListView"><attr format="dimension" name="paddingBottomNoButtons"/><attr format="dimension" name="paddingTopNoTitle"/></declare-styleable>
-    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr name="android:descendantFocusability"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr name="android:descendantFocusability"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/><attr format="boolean" name="fastScrollEnabled"/><attr format="reference" name="fastScrollVerticalThumbDrawable"/><attr format="reference" name="fastScrollVerticalTrackDrawable"/><attr format="reference" name="fastScrollHorizontalThumbDrawable"/><attr format="reference" name="fastScrollHorizontalTrackDrawable"/></declare-styleable>
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
@@ -847,6 +896,7 @@
             <enum name="normal" value="-3"/>
             <enum name="large" value="-4"/>
         </attr><attr format="boolean" name="com_facebook_is_cropped"/></declare-styleable>
+    <declare-styleable name="fastscroll__fastScroller"><attr format="color" name="fastscroll__bubbleColor"/><attr format="color" name="fastscroll__handleColor"/><attr format="reference" name="fastscroll__bubbleTextAppearance"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -1014,6 +1064,18 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fastscroll__bubble_corner">20dp</dimen>
+    <dimen name="fastscroll__bubble_size">50dp</dimen>
+    <dimen name="fastscroll__handle_clickable_width">24dp</dimen>
+    <dimen name="fastscroll__handle_corner">3dp</dimen>
+    <dimen name="fastscroll__handle_height">30dp</dimen>
+    <dimen name="fastscroll__handle_inset">9dp</dimen>
+    <dimen name="fastscroll__handle_padding">2dp</dimen>
+    <dimen name="fastscroll__handle_width">6dp</dimen>
+    <dimen name="fastscroll_default_thickness">8dp</dimen>
+    <dimen name="fastscroll_margin">0dp</dimen>
+    <dimen name="fastscroll_minimum_range">50dp</dimen>
+    <dimen name="google_1x">8dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -1230,6 +1292,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="fastscroll__app_name">RecyclerViewFastScroll</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="google_sign_in">Sign in with Google</string>
@@ -1255,6 +1318,7 @@
     <string name="mr_controller_volume_slider">Volume slider</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="no_result_found">Results not found</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1269,7 +1333,9 @@
     <string name="s5">Create calendar event</string>
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="s7">Test Ad</string>
+    <string name="search_hint">Search...</string>
     <string name="search_menu_title">Search</string>
+    <string name="select_country">Select a county</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tagmanager_preview_dialog_button">Continue</string>
     <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
