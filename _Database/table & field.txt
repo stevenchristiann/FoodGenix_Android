@@ -1,0 +1,248 @@
+user
+	id
+	username
+	password
+	name
+	email
+	phone_number
+	gender
+	birthdate
+	facebook_id
+	google_id
+	post_count
+	follower_count
+	following_count
+	photo_url
+	bio
+	foodgenix_points
+	is_restaurant
+	setting_id
+	created_at
+	modified_at
+	deleted_at
+
+post
+	id
+	user_id
+	post_url
+	photo_url
+	caption_id
+	location_id
+	last_comment_id
+	second_last_comment_id
+	like_count
+	comment_count
+	is_promotion
+	is_video
+	created_at
+	modified_at
+	deleted_at
+	
+location
+	id
+	name
+	latitude
+	longitude
+	google_map_link
+	created_at
+	modified_at
+	deleted_at
+	
+photo_tag
+	id
+	post_id
+	user_id
+	x_coordinate
+	y_coordinate
+	created_at
+	modified_at
+	deleted_at
+
+mention
+	id
+	comment_id
+	user_id
+	created_at
+	modified_at
+	deleted_at
+	
+hashtag
+	id
+	text
+	created_at
+	modified_at
+	deleted_at
+
+comment_hashtag
+	id
+	comment_id
+	hashtag_id
+	created_at
+	modified_at
+	deleted_at
+	
+like
+	id
+	post_id
+	user_id
+	created_at
+	modified_at
+	deleted_at
+
+point_add
+	id
+	user_id
+	like_id
+	count
+	created_at
+	modified_at
+	deleted_at
+	
+comment
+	id
+	user_id
+	comment_text
+	created_at
+	modified_at
+	deleted_at
+
+favorite
+	id
+	post_id
+	user_id
+	created_at
+	modified_at
+	deleted_at
+
+view
+	id
+	user_id
+	user_viewed_id
+	created_at
+	modified_at
+	deleted_at
+
+follow
+	id
+	user_id
+	user_followed_id
+	created_at
+	modified_at
+	deleted_at
+
+block
+	id
+	user_id
+	user_followed_id
+	created_at
+	modified_at
+	deleted_at
+	
+report
+	id
+	post_id
+	user_id
+	reason
+	created_at
+	modified_at
+	deleted_at
+	
+search
+	id
+	user_id
+	keyword
+	type
+	created_at
+	modified_at
+	deleted_at
+
+company
+	id
+	name
+	address
+	city
+	state
+	phone_number
+	cp_name
+	cp_phone_number
+	created_at
+	modified_at
+	deleted_at
+	
+voucher
+	id
+	company_id
+	name
+	description
+	real_price
+	foodgenix_price
+	start_stock
+	remaining_stock
+	max_buy
+	exp_date
+	created_at
+	modified_at
+	deleted_at
+	
+voucher_code
+	id
+	voucher_id
+	code
+	redeem_date
+	exp_date
+	created_at
+	modified_at
+	deleted_at
+	
+exchange_voucher
+	id
+	voucher_id
+	user_id
+	count
+	real_price
+	foodgenix_price
+	real_total
+	foodgenix_total
+	created_at
+	modified_at
+	deleted_at
+	
+exchange_voucher_code
+	id
+	exchange_voucher_id
+	voucher_code_id
+	created_at
+	modified_at
+	deleted_at
+
+user_voucher
+	id
+	user_id
+	voucher_code_id
+	created_at
+	modified_at
+	deleted_at
+	
+setting
+	id
+	language
+	private_account
+	like_notification
+	comment_notification
+	tag_notification
+	mention_notification
+	like_comment_tagged_notification
+	new_follower_notification
+	save_original_photo
+	created_at
+	modified_at
+	deleted_at
+
+log
+	id
+	user_id
+	text
+	created_at
+	modified_at
+	deleted_at
+
